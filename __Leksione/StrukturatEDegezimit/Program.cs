@@ -1,4 +1,5 @@
-﻿var nr1 = 5;
+﻿//gjeni numrin me te madh
+var nr1 = 5;
 var nr2 = 5;
 var nr3 = 5;
 if (nr1 > nr2 && nr1 > nr3)
