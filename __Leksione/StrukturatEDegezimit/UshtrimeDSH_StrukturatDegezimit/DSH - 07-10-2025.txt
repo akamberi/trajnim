@@ -1,0 +1,7 @@
+1.Kontrolloni nese nje numer i dhene nga perdoruesi plotepjestohet me 5.
+2.Kontrolloni nese nje perdorues mund te votoj apo jo.
+3.Lexo dy numra dhe trego nëse i pari është shumëfish i të dytit.
+4.Lexo tre numra, llogarit mesataren dhe trego nëse ajo është më e madhe se 10 apo jo.
+5.Lexo një numër nga 1–7.Përdor switch për të treguar nëse është Ditë pune (1–5) apo Fundjavë (6–7).
+6.Lexo një fjalë si “katror”, “drejtkëndësh”, “rreth” dhe me switch shfaq formulën për sipërfaqen përkatëse
+7.Lexo moshën dhe kategorizo:0–12 → Fëmijë, 13–17 → Adoleshent, 18–64 → I rritur, 65+ → I moshuar
