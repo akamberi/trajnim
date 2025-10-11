@@ -1,0 +1,19 @@
+Do...While
+1. Lexo nje string nga përdoruesi derisa të shkruajë “stop”.
+2. Llogarit mesataren e disa numrave derisa futet -1
+
+While
+3. Lexo numra derisa përdoruesi të shkruajë 0
+4. Shtyp vetëm numrat çift nga 1 deri në 20 (nese klikohet nje nr tek nderprit ekzekutimin).
+5. Gjej shumën e shifrave të një numri
+
+Arrays
+6. Krijo nje array me 10 numra dhe gjej mesataren e tyre.
+7. Lexo 5 nr nga tastiera, vendosi ne nje array dhe afisho vetem nr cift.
+8. Gjej numrin me te vogel ne nje array
+11. Krijo nje array me 10 numra dhe numero sa here perseritet nje numer i dhene nga perdoruesi.
+
+Lists
+9. krijo nje list me numra dhe me pas hiq te gjithe numrat qe jane me te vegjel se numri 10.
+10. Krijo nje list me 10 numra dhe afisho Shumen e tyre.
+11. Krijo nje list ku ruan notat e studenteve dhe afisho noten me te lart dhe me te ulet.
