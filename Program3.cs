@@ -1,27 +1,15 @@
-﻿using System;
+﻿
+        int numer;
+// kur perdoruesi shtyp numrin zero programi ndalet
+        Console.Write("Shkruaj një numër : ");
+        numer = int.Parse(Console.ReadLine());
 
-class Program
-{
-    static void Main()
-    {
-        Console.Write("shkruani numrin e pare: ");
-        int a= int.Parse(Console.ReadLine());
-        Console.Write("shkruani numrin e dyte: ");
-        int b = int.Parse(Console.ReadLine());
+        while (numer != 0)
+        {
+            Console.Write("Shkruaj një tjetër numër : ");
+            numer = int.Parse(Console.ReadLine());
+        }
 
-        if(b !=0 && a%b == 0)
-            Console.WriteLine($"{a} eshte shumfish i {b}");
-        else
-            Console.WriteLine($"{a} nuk eshte shumfish i {b}");
+        Console.WriteLine("Programi përfundoi.");
+    
 
-
-
-
-
-
-
-
-
-
-    }
-}

@@ -1,15 +1,11 @@
-﻿using System;
+﻿string input;
 
-class Program
+do
 {
-    static void Main()
-    {
-        Console.Write("Shkruaj një numër: ");
-        int num = int.Parse(Console.ReadLine());
+    Console.Write("Shkruaj një fjalë : ");
+    input = Console.ReadLine().Trim().ToLower(); 
 
-        if (num % 5 == 0)
-            Console.WriteLine("Numri plotpjestohet me pese");
-        else
-            Console.WriteLine("Numri nuk plotpjestohet me pese");
-    }
-}
+} while (input != "stop");
+
+Console.WriteLine("Programi përfundoi!");
+    
