@@ -57,14 +57,14 @@
 //}
 
 //while - Kontrollo derisa nr i dhene nga perdoruesi te jete <= 5
-Console.Write("jepni nje nr:");
-int.TryParse(Console.ReadLine(), out int a);
-while (a <= 5)
-{
-    Console.WriteLine("Numri eshte:" + a);
-    Console.Write("JEP NUMRIN E RI: ");
-    int.TryParse(Console.ReadLine(), out a);
-}
+//Console.Write("jepni nje nr:");
+//int.TryParse(Console.ReadLine(), out int a);
+//while (a <= 5)
+//{
+//    Console.WriteLine("Numri eshte:" + a);
+//    Console.Write("JEP NUMRIN E RI: ");
+//    int.TryParse(Console.ReadLine(), out a);
+//}
 
 //perserit derisa nje vlere e dhene te jete int dhe te plotepjestohet me 5
 //Console.Write("jepni nje nr:");
@@ -109,5 +109,24 @@ while (a <= 5)
 
 //}
 //while (Console.ReadLine() == "PO"); //do perseritet derisa te jap prgj PO
+
+
+Console.Write("Jepni numrin e rreshtave: ");
+int.TryParse(Console.ReadLine(), out int n);
+
+for (int i = 1; i <= n; i++)
+{
+    for (int j = i; j < n; j++)
+    {
+        Console.Write(" ");
+    }
+
+    for (int k = 1; k <= (2 * i - 1); k++)
+    {
+        Console.Write("*");
+    }
+
+    Console.WriteLine();
+}
 
 
