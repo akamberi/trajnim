@@ -1,0 +1,33 @@
+Parametrat me vlere
+
+1. Krijo një funksion që printon dyfishin e numrit të dhënë nga perdoruesi.
+
+2. Krijo një funksion që llogarit dhe printon katrorin e një numri.
+
+3. Krijo një funksion që shfaq 2 numrat e dhene nga perdoruesi në rend zbritës.
+
+ Parametra me reference (ref)
+
+4. Krijo një funksion që rrit vlerën e një numri me 1.
+
+5. Krijo një funksion që ndërrojnë vlerat e dy numrave.
+
+6. Krijo një funksion që shumëzon vlerën me 3.
+
+Parametra out
+
+7. Krijo një funksion që lexon disa numra dhe gjen vlerën minimale dhe maksimale.
+
+Parametri params
+
+8. Krijo një funksion Mesatarja(params double[] numrat) që kthen mesataren e tyre.
+
+9. Krijo një funksion që kthen shumën e të gjithë elementeve te dhene.
+
+Parametra opsionalë
+
+10. Krijo një funksion që llogarit sipërfaqen e një katrori dhe e shumëzon me një koeficient nëse jepet.
+
+Parametra të emërtuar
+
+11. Krijo një funksion Rezultati dhe thirre me parametra në rend të ndryshëm, por të emërtuar.
