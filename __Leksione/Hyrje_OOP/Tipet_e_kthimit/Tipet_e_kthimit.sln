@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tipet_e_kthimit", "Tipet_e_kthimit\Tipet_e_kthimit.csproj", "{E5469684-FAF1-4E20-B690-0F18E0157ACB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5469684-FAF1-4E20-B690-0F18E0157ACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5469684-FAF1-4E20-B690-0F18E0157ACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5469684-FAF1-4E20-B690-0F18E0157ACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5469684-FAF1-4E20-B690-0F18E0157ACB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B114D6B-8201-4395-8FEB-8E45BE8AB16A}
+	EndGlobalSection
+EndGlobal
