@@ -1,0 +1,4 @@
+﻿interface IPrintues
+{
+    void Printo();
+}
