@@ -1,21 +1,19 @@
-﻿// Ky program kontrollon nese nje numer eshte shumefish i 3 dhe 5
+﻿//nje klase produkt e cila do ket emer,cmim dhe sasi
+//krijo nje list produkt qe do sherbej si iventar do krijojm metodat:
+// 1 shto produkt
+// 2 fshi produkt ne baze te emrit
+// 3 totali i produkteve qe do kthej shumen e stokut qe ka
+using ConsoleApp26;
 
-using System;
-
-class Program
+var dyqan = new Dyqan();    
+dyqan.ShtoProdukt(new Produkt { emri = "Molle", cmimi = 100, sasi = 50 });
+dyqan.ShtoProdukt(new Produkt { emri = "Dardhe", cmimi = 150, sasi = 30 });
+dyqan.ShtoProdukt(new Produkt { emri = "Banane", cmimi = 200, sasi = 20 });
+foreach (var produkt in dyqan.Produktet)
 {
-    static void Main()
-    {
-        Console.Write("Jep nje numer: ");
-        int numri = int.Parse(Console.ReadLine());
-
-        if (numri % 3 == 0 && numri % 5 == 0)
-        {
-            Console.WriteLine("Numri eshte shumefish i 3 dhe 5.");
-        }
-        else
-        {
-            Console.WriteLine("Numri nuk eshte shumefish i 3 dhe 5.");
-        }
-    }
+    Console.WriteLine($"Emri: {produkt.emri}, Cmimi: {produkt.cmimi}, Sasia: {produkt.sasi}");
 }
+Console.WriteLine("Totali i produkteve: " + dyqan.TotaliProdukteve());
+dyqan.FshiProdukt("Dardhe");
+Console.WriteLine("Produkti 'Dardhe' u fshi.");
+Console.WriteLine("Totali i produkteve pas fshirjes: " + dyqan.TotaliProdukteve());
