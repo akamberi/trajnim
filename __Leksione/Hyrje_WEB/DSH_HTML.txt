@@ -1,0 +1,3 @@
+1. Krijoni një tabelë me orarin javor të mësimeve.
+2. Krijoni një faqe që shfaq disa foto (p.sh. peizazhe ose ushqime), secila me titull.
+3. Krijoni një formë regjistrimi që merr të dhëna nga përdoruesi si emri, mbiemri, gjinia, mosha, arsimi etj.
