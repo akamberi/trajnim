@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Forma e Regjistrimit</title>
+  <style>
+    body {
+      background-color: #eaf2f8;
+      font-family: Arial, sans-serif;
+    }
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+    form {
+      background-color: white;
+      width: 350px;
+      margin: 30px auto;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px gray;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    input, select {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 15px;
+    }
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Forma e Regjistrimit</h2>
+
+<form>
+  <label>Emri:</label>
+  <input type="text" name="emri" required>
+
+  <label>Mbiemri:</label>
+  <input type="text" name="mbiemri" required>
+
+  <label>Gjinia:</label>
+  <select name="gjinia">
+    <option>Mashkull</option>
+    <option>Femer</option>
+  </select>
+
+  <label>Mosha:</label>
+  <input type="number" name="mosha" min="10" max="100">
+
+  <label>Arsimi:</label>
+  <select name="arsimi">
+    <option>Fillor</option>
+    <option>Mesëm</option>
+    <option>Universitar</option>
+    <option>Master</option>
+  </select>
+
+  <label>Email:</label>
+  <input type="email" name="email">
+
+  <input type="submit" value="Regjistrohu">
+</form>
+
+</body>
+</html>
