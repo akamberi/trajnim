@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Struktura_Projektit.Models.Author>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<div class="card-group">
+    @foreach (var item in Model)
+    {
+        <div class="card">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">@Html.DisplayFor(x => item.Name)</h5>
+                <p class="card-text">@Html.DisplayFor(x => item.Birthplace)</p>
+            </div>
+            <div class="card-footer">
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a>
+            </div>
+        </div>
+    }
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Birthplace)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Birthplace)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

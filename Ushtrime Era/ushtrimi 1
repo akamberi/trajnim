@@ -1,0 +1,50 @@
+<!--Krijoni një tabelë me orarin javor të mësimeve.-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Orari Javor i Mësimeve</title>
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h2>Orari Javor i Mësimeve</h2>
+    <table>
+        <tr>
+            <th>Dita</th>
+            <th>Lëndët</th>
+        </tr>
+        <tr>
+            <td>E Hënë</td>
+            <td>Matematikë, Fizikë, Histori</td>
+        </tr>
+        <tr>
+            <td>E Martë</td>
+            <td>Kimia, Gjeografi, Letërsi</td>
+        </tr>
+        <tr>
+            <td>E Mërkurë</td>
+            <td>Biologji, Anglisht, Edukim Fizik</td>
+        </tr>
+        <tr>
+            <td>E Enjte</td>
+            <td>Informatikë, Muzikë, Art</td>
+        </tr>
+        <tr>
+            <td>E Premte</td>
+            <td>Filosofi, Ekonomi, Gjuhë e Huaj</td>
+        </tr>
+    </table>
+</body>
+</html>
