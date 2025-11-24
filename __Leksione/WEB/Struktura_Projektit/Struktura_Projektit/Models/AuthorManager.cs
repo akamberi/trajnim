@@ -22,15 +22,29 @@ namespace Struktura_Projektit.Models
                  Name="Afrim",
             },
         };
+
         public static List<Author> GetAuthors()
         {
             return authors;
         }
 
-        public static void AddAuthor (Author author)
+        public static void AddAuthor(Author author)
         {
            authors.Add(author);
         }
-    }
 
+        public static Author? GetById(int id)
+        {
+            return authors.FirstOrDefault(x => x.Id == id);
+        }
+
+        public static void DeleteAuthor(int id)
+        {
+            var author = GetById(id);
+            if (author != null)
+            {
+                authors.Remove(author);
+            }
+        }
+    }
 }

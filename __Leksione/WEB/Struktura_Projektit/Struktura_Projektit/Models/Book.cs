@@ -32,6 +32,7 @@ namespace Struktura_Projektit.Models
         }
 
         [DisplayName("ID Unike")]
+        [Key]
         public int Id { get; }
 
         [DisplayName("Titulli")]

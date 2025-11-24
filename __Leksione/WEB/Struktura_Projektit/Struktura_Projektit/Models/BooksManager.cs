@@ -40,5 +40,15 @@ namespace Struktura_Projektit.Models
         {
             return books.FirstOrDefault(x => x.Id == id);
         }
+
+        //fshijme nje liber nga lista e librave
+        internal static void DeleteBook(int id)
+        {
+            var book = GetById(id);
+            if (book != null)
+            {
+                books.Remove(book);
+            }
+        }
     }
 }
